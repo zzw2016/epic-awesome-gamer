@@ -10,7 +10,7 @@ on:
   # Give misbehaving naughty babies a New Year's blessing~
   # Crontab表达式转义 https://crontab.guru/
   schedule:
-    - cron: "5 4 * * 5"
+    - cron: "5 4,8,0 * * *"
     - cron: "3 2 * * 6"
 
 jobs:
